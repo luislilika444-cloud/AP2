@@ -23,3 +23,6 @@ def test_classificar_nota_negativa_invalida():
 
 def test_classificar_nota_maior_dez_invalida():
   assert classificar_nota(11) == "Nota inválida"  # Teste 6: Nota 11: inválida[cite: 1]
+
+def test_classificar_nota_limite_recuperacao():
+  assert classificar_nota(5) == "Recuperação"
