@@ -19,3 +19,5 @@ def test_analisar_numero_negativo_impar():
 
 def test_analisar_numero_zero():
   assert analisar_numero(0) == "Zero e par"  # Teste 5[cite: 1]
+
+# qualquer coisa
